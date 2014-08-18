@@ -13,7 +13,7 @@ static CGFloat const ES_RETRY_INTERVAL = 1.0;
 static CGFloat const ES_DEFAULT_TIMEOUT = 300.0;
 
 static NSString *const ESKeyValueDelimiter = @": ";
-static NSString *const ESEventSeparator = @"\n\n";
+static NSString *const ESEventSeparator = @"\r\n\r\n";
 static NSString *const ESEventKeyValuePairSeparator = @"\n";
 
 static NSString *const ESEventDataKey = @"data";
