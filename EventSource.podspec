@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 	s.license      = 'MIT (see LICENSE.txt)'
 	s.author       = { "Neil Cowburn" => "git@neilcowburn.com" }
 	s.source       = "https://github.com/wendelllamtofu/EventSource.git"
-	s.source_files = 'EventSource', 'EventSource/EventSource.{h,m}'
+	s.source_files = 'EventSource/EventSource.{h,m}'
 	s.ios.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
 	s.osx.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
 	s.ios.deployment_target = '5.0'
